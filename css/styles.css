@@ -1,6 +1,24 @@
 @charset "UTF-8";
-/* CSS Document */
-body {
+.body {
 	color: black;
 	background-color: darkgrey;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.container {
+	background-color:#D8D8D8;
+	padding: 10px;
+	margin-left:80px;
+	margin-right: 80px;
+	border: 2px solid #970002;
+	text-align: left;
+}
+
+#image {
+	align:center;
+}
+
+#titlep {
+	font-weight:900;
 }
