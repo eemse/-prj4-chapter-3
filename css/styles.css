@@ -26,12 +26,12 @@
 .container {
 	color: black;
 	background-color:#CAD3D2;
-	padding: 10px;
-	margin-left:80px;
-	margin-right: 80px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	border: 5px solid #117B68;
+	padding: 20px;
+	margin-left:300px;
+	margin-right: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 3px solid #042117;
 }
 
 .titlep {
@@ -39,6 +39,10 @@
 	font-size: 20px;
 	margin: 5px;
 }
-footer {
+
+#footer {
 	font-size: 12px;
+}
+#text {
+	text-align: left;
 }
