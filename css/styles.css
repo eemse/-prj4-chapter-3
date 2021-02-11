@@ -1,23 +1,44 @@
 @charset "UTF-8";
-.body {
-	color: black;
-	background-color:#8D8080;
+
+* { margin: 0; padding: 0; border: 0; }
+
+#body {
+	color: #000000;
+	background: #7F8288;
 	text-align: center;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 14px;
+}
+
+#header {
+	background-image: url("../images/green.jpg");
+	background-size: contain;
+	background-repeat: repeat;
+	background-position: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+	color: white;
 }
 
 .container {
-	background-color:#D8D8D8;
+	color: black;
+	background-color:#CAD3D2;
 	padding: 10px;
 	margin-left:80px;
 	margin-right: 80px;
-	border: 5px solid #970002;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 5px solid #117B68;
 }
 
-#image {
-	align:center;
+.titlep {
+	font-weight: 900;
+	font-size: 20px;
+	margin: 5px;
 }
-
-#titlep {
-	font-weight:900;
+footer {
+	font-size: 12px;
 }
